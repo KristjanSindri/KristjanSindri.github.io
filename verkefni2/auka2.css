@@ -1,0 +1,55 @@
+body{
+  display: grid;
+  grid-template-areas:
+  "haus haus haus haus haus"
+  "valmynd valmynd valmynd valmynd valmynd"
+  "adal adal adal adal adal"
+  "fotur fotur fotur fotur fotur";
+  background-color: rgb(15,44,100);
+  color: lime;
+  background-image:url("give.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif
+    font-size: "6";
+}
+.header{
+  grid-area: haus;
+  color: lime;
+  border: 2px solid green;
+  text-align: center;
+  font-style: inherit;
+  
+}
+.valmynd{
+  grid-area: valmynd;
+  border: 2px solid green;
+  text-align: center;
+  color: lime;
+}
+
+.adal{
+  grid-area: adal;
+  border: 2px solid green;
+  font-size: "6";
+}
+.haegri{
+  grid-area: haegri;
+  border: 2px solid green;
+}
+.fotur{
+  grid-area: fotur;
+  border: 2px solid green;
+  text-align: center;
+  color: lime;
+}
+.color{
+  color: white;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color: lightgrey;
+}
+.audio{ display:none}
