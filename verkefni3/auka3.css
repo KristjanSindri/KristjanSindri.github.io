@@ -1,0 +1,59 @@
+body{
+  display: grid;
+  grid-template-areas:
+  "haus haus haus haus haus"
+  "valmynd valmynd valmynd valmynd valmynd"
+  "vinstri vinstri adal adal adal "
+  "fotur fotur fotur fotur fotur";
+  background-color: rgb(15,44,100);
+  color: lime;
+  background-image:url("up.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+  grid-area: haus;
+  color: green;
+  border: 2px solid yellow;
+  text-align: center;
+  font-style: inherit;
+  
+}
+.valmynd{
+  grid-area: valmynd;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.adal{
+  grid-area: adal;
+  border: 2px solid yellow;
+  font-size: "6";
+  background-image:url("yeet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.haegri{
+  grid-area: haegri;
+  border: 2px solid yellow;
+}
+.vinstri{
+  grid-area: vinstri;
+  border: 2px solid yellow;
+}
+.fotur{
+  grid-area: fotur;
+  border: 2px solid yellow;
+  text-align: center;
+  color: green;
+}
+.color{
+  color: green;
+}
+a:link {
+  color:white;
+}
+a:visited {
+  color: lightgrey;
+}
+.audio{ display:none}
